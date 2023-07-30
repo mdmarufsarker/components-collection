@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -24,12 +24,30 @@ module.exports = {
         xl: "1280px",
       },
       fontFamily: {
-        heading: ["Poppins", "sans-serif"],
-        body: ["Work Sans", "sans-serif"],
-        stylish: ["Pacifico", "cursive"],
-        handwriting: ["Itim", "cursive"],
+        regular: ["Work Sans", "sans-serif"],
+        hw: ["Delius", " cursive"],
+        body: ["Mukta", "sans-serif"],
+        stylish: ["Sacramento", "cursive"],
+        poppins: ["Poppins", "sans-serif"],
+        heading: ["Roboto", "sans-serif"],
+        code: ["Source Code Pro", "monospace"],
       },
-    }
+      colors: {
+        bodyColor: "#222831",
+        lightWhite: "#EEEEEE",
+        lightBlack: "#393E46",
+        cardViolate: "#ADA2FF",
+        cardSkyBlue: "#C0DEFF",
+        cardPink: "#FFE5F1",
+        cardYellow: "#FFF8E1",
+        textGreen: "#00C897",
+        textBlue: "#2192FF",
+        textCyan: "#00C7FF",
+      },
+      boxShadow: {
+        navbarShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
+      },
+    },
   },
   plugins: [],
-}
+};
