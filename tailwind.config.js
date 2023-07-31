@@ -43,6 +43,8 @@ module.exports = {
         textGreen: "#00C897",
         textBlue: "#2192FF",
         textCyan: "#00C7FF",
+        textYellow: "#EEC40E",
+        textOrange: "#F55813",
       },
       boxShadow: {
         navbarShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
